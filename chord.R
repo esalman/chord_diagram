@@ -4,9 +4,9 @@ library(ComplexHeatmap)
 library(rmatio)
 library(latex2exp)
 
-outpath = '../results/no_single_dom_states_3/'
+outpath = './'
 cdmi_csv = paste(outpath, 'cdmi_reg_0.099612.csv', sep='')
-domain_png = '../results/domains/'
+domain_png = './domains/'
 
 #load data
 dat = read.csv(cdmi_csv, header=TRUE)
